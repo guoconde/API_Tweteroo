@@ -6,15 +6,9 @@
 
 ### Imagem do desafio:
 
-<div style='width: 300px'>
+<img src='https://bootcampra.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc23c3a17-17a4-459e-853e-a125695f4858%2FUntitled.png?table=block&id=8b38683c-8e09-4a4e-b59b-9354fed1f4f7&spaceId=f797e032-5eb2-4c9d-beb7-cd7181e19e47&width=1500&userId=&cache=v2' width='200px' />
 
-![enter image description here](https://bootcampra.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc23c3a17-17a4-459e-853e-a125695f4858%2FUntitled.png?table=block&id=8b38683c-8e09-4a4e-b59b-9354fed1f4f7&spaceId=f797e032-5eb2-4c9d-beb7-cd7181e19e47&width=1500&userId=&cache=v2)
-</div>
-
-<div style='width: 300px'>
-
-![enter image description here](https://bootcampra.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe813c786-a52a-4461-ab1d-e69781cb0546%2FUntitled.png?table=block&id=f75ebcb5-9f2d-4c6d-81d2-174d0fbb6fad&spaceId=f797e032-5eb2-4c9d-beb7-cd7181e19e47&width=1500&userId=&cache=v2)
-</div>
+<img src='https://bootcampra.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe813c786-a52a-4461-ab1d-e69781cb0546%2FUntitled.png?table=block&id=f75ebcb5-9f2d-4c6d-81d2-174d0fbb6fad&spaceId=f797e032-5eb2-4c9d-beb7-cd7181e19e47&width=1500&userId=&cache=v2' width='200px' />
 
 ### Link Deploy:
 
