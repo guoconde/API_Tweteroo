@@ -8,63 +8,7 @@ app.use(json())
 
 let user
 
-const tweets = [
-    {
-        username: "bobesponja",
-        avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info",
-        tweet: "eu amo o hub"
-    },
-    {
-        username: "bobesponja",
-        avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info",
-        tweet: "eu amo o hub"
-    },
-    {
-        username: "bobesponja",
-        avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info",
-        tweet: "eu amo o hub"
-    },
-    {
-        username: "bobesponja",
-        avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info",
-        tweet: "eu amo o hub"
-    },
-    {
-        username: "bobesponja",
-        avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info",
-        tweet: "eu amo o hub"
-    },
-    {
-        username: "bobesponja",
-        avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info",
-        tweet: "eu amo o hub"
-    },
-    {
-        username: "bobesponja",
-        avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info",
-        tweet: "eu amo o hub"
-    },
-    {
-        username: "bobesponja",
-        avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info",
-        tweet: "eu amo o hub"
-    },
-    {
-        username: "bobesponja",
-        avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info",
-        tweet: "eu amo o hub"
-    },
-    {
-        username: "bobesponja",
-        avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info",
-        tweet: "eu amo o hub"
-    },
-    {
-        username: "gustavo",
-        avatar: "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info",
-        tweet: "eu amo o hub"
-    },
-]
+const tweets = []
 
 app.post('/sign-up', (req, res) => {
     user = req.body
@@ -90,8 +34,6 @@ app.post('/tweets', (req, res) => {
         tweets.unshift(tweet)
         res.status(201).send('ok')
     }
-
-    
 })
 
 app.get('/tweets', (req, res) => {
